@@ -1,3 +1,39 @@
 *{
     font-family: "Inter", sans-serif;
 }
+
+.bannerContent h1{
+    font-size: 52px;
+    font-weight:700;
+}
+
+.bannerContent p{
+    font-size: 22px;
+}
+
+.bannerContent ul{
+    list-style: none;
+}
+.bannerContent ul li{
+    font-size: 22px;
+}
+
+.bannerContent ul li i{
+    color: #2699FB;
+}
+
+.bannerContent h1 span{
+    color: #2699FB;
+    /* background: url('../images/banner-content-image.png') no-repeat bottom; */
+}
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.bannerContentBtn button:first-child{
+    color: white;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+}
+
