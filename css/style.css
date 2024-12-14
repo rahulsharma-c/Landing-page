@@ -37,3 +37,53 @@
     background: linear-gradient(to right, #0ACEFE,#2699FB);
 }
 
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    border: none;
+    color: white;
+}
+
+.counterSection h2{
+    font-size:30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.highlights-section{
+    background-color:#f7faff ;
+}
+
+.highlights-section h2{
+    color: #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlights-section p{
+    font-size: 18px;
+}
+
+.highlights-items img{
+   height: 80px;
+}
+
+.highlights-items h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.highlights-items p{
+    font-size: 15px;
+}

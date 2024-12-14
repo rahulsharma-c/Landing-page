@@ -14,8 +14,82 @@
 
 </head>
 <body>
+    <!-- enquiry modal -->
+    <div class="modal fade" id="enModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+              
+            </div>
+            <div class="modal-body">
+                <form action="" class="bannerForm p-3">
+
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control"> 
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control"> 
+                    </div>
+                    <div class=" mb-3">
+                        <label class="form-label">Phone</label>
+                       <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+91</span>
+                        <input type="text" class="form-control" placeholder="Phone" >
+                       </div>
+                    </div>
+                    <div class="mb-3">
+                        <button>Register Now</button>
+                    </div>
+
+                </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-Book Demo Model-  -->
+      <div class="modal fade" id="bookDemo">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"> Book Demo</h1>
+              
+            </div>
+            <div class="modal-body">
+                <form action="" class="bannerForm p-3">
+                    <h3>Book Your Free Class Now!</h3>
+                    <p>2 days of free demo classes without paying in advance!</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control"> 
+                    </div>
+                    <div class=" mb-3">
+                        <label class="form-label">Phone</label>
+                       <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+91</span>
+                        <input type="text" class="form-control" placeholder="Phone" >
+                       </div>
+                    </div>
+                    <div class="mb-3">
+                        <button>Register Now</button>
+                    </div>
+
+                </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+
+
     <!--position skicky keeps header stick even at scrolling the page-->
-    <header class="container-fluid py-2 shadow position-sticky top-0  ">
+    <header class="bg-white container-fluid py-2 shadow position-sticky top-0  ">
         <div class="container">
             <div class="row align-items-center">
                 <figure class="col-lg-6 col-12 text-lg-start text-center mb-0 pb-0">
@@ -34,7 +108,7 @@
 
     <section class="container-fluid py-lg-5 py-sm-4 py-3">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between gy-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="bannerContent">
                          <h1>Career Opportunity <br/> in <span>Digital Marketing</span></h1>
@@ -46,15 +120,139 @@
                          </ul>
 
                          <div class="bannerContentBtn d-flex gap-3">
-                            <button>Book 2 Days Demo</button>
-                            <button><i class="fa-solid fa-download"></i> Download Curriculum</button>
+                            <button data-bs-toggle="modal" data-bs-target="#bookDemo">Book 2 Days Demo</button>
+                            <button data-bs-toggle="modal" data-bs-target="#enModal"><i class="fa-solid fa-download"></i> Download Curriculum</button>
                          </div>
                     </div>
                 </div>
-                <div class="col-lg-5"></div>
+                <div class="col-lg-5">
+                    <form action="" class="bannerForm shadow-lg">
+                        <h3>Book Your Free Class Now!</h3>
+                        <p>2 days of free demo classes without paying in advance!</p>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control"> 
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control"> 
+                        </div>
+                        <div class=" mb-3">
+                            <label class="form-label">Phone</label>
+                           <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">+91</span>
+                            <input type="text" class="form-control" placeholder="Phone" >
+                           </div>
+                        </div>
+                        <div class="mb-3">
+                            <button>Register Now</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container shadow-lg mt-5 counterSection">
+            <div class="row row-cols-lg-5  row-cols-md-2  row-cols-2  p-4">
+                <div class="col"><h2>1000+ </h2>
+                <p> Students Trained</p></div>
+                <div class="col"><h2><i class="fa-solid fa-indian-rupee-sign"></i>4.5 LPA  </h2>
+                <p>Avg Package</p></div>
+                <div class="col"><h2>320+ </h2>
+                <p>Recruiting Partners </p></div>
+                <div class="col"><h2>10:00 am </h2>
+                <p>Program timing</p></div>
+                <div class="col"><h2>11th Jan </h2>
+                <p>New Batch </p></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="highlights-section container-fluid py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2>Key Highlights of the Course</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo velit ad, impedit modi iste et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row gy-3">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h1.png" />
+                        <div>
+                            <h4>Assignments & <br/> Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h2.png" />
+                        <div>
+                           
+                            <h4>Industry-recognized   & <br/> Certification</h4>
+                            <p> Stand out to your professional</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h3.jpg" />
+                        <div>
+                            <h4>Live Classes & <br/>  Recorded Lectures</h4>
+                            <p> Best of both wartes of learning</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h4.png" />
+                        <div>
+                            <h4>Downloadable  <br/> Content</h4>
+                            <p>With lifetime access</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h5.png" />
+                        <div>
+                            <h4>6 Industry Level<br/> Projects</h4>
+                            <p>Get Practical Skills</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class=" highlights-items bg-white p-3 d-flex align-items-start gap-3">
+                        <img src="./images/h6.png" />
+                        <div>
+                            <h4>4 Live Doubt Clearing<br/> Sessions</h4>
+                            <p>Gain a clear understanding</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

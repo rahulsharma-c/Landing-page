@@ -5,6 +5,8 @@
         left: 0px;
         width: 100%;
         justify-content: center !important;
+        background-color: white;
+        padding: 5px 0px;
     }
     .whatsapp,.call{
     padding: 7px 15 px;
@@ -24,4 +26,21 @@
     .bannerContent p,.bannerContent ul li{
         font-size: 16px;
     }
+
+    .bannerContentBtn button{
+        width: 100%;
+    }
+
+    .bannerContentBtn{
+        flex-direction: column;
+    }
+    .bannerForm{
+        padding: 20px;
+    }
+     
+    .highlights-section h2{
+        font-size: 28px;
+    }
+
+
 }
